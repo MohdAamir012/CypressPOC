@@ -1,0 +1,26 @@
+{
+  "name": "orangehrmfrontend",
+  "version": "1.0.0",
+  "description": "This repo is for the autooomation of orangehrm.",
+  "main": "index.js",
+  "scripts": {
+    "teste2eUiChromeMocha": "npx cypress run --env allure=false --spec cypress/e2e/test/*.cy.js --headed --browser=chrome",
+    "generateAllureResult": "npx cypress run --env allure=true --spec cypress/e2e/test/*.cy.js --headed --browser=chrome",
+    "teste2eApiChromeAllure": "npm run generateAllureResult && npx --clean allure generate"
+  },
+  "author": "Mohd Aamir",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.23.0",
+    "cypress": "^12.13.0",
+    "cypress-file-upload": "^5.0.8",
+    "run": "^1.4.0",
+    "xpath": "^0.0.32"
+  },
+  "devDependencies": {
+    "@cypress/grep": "^3.1.5",
+    "@shelex/cypress-allure-plugin": "^2.40.0",
+    "cypress-mochawesome-reporter": "^3.5.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "baseurl":"https://opensource-demo.orangehrmlive.com/",
+    "searchUser":"web/index.php/api/v2/admin/users",
+    "deleteUser":"web/index.php/api/v2/admin/users",
+    "getAllUser":"web/index.php/api/v2/admin/users",
+    "getAllEmp":"https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees",
+    "addUser":"/public/v2/users",
+    "UpdateUserDetails":"/public/v2/users/",
+    "url":"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+}

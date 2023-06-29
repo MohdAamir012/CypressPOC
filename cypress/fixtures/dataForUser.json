@@ -1,0 +1,11 @@
+{
+    "users":[
+       {
+           "name":"Shivanshu Singh",
+           "passwd":"admin123",
+           "empName":"Shivanshu Singh",
+           "role":"Admin",
+           "status":"Enabled"        
+   }
+    ]
+   }

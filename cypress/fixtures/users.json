@@ -1,0 +1,654 @@
+{
+  "data": [
+    {
+      "id": 10,
+      "userName": "Aaliyah.Haq",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 10,
+        "employeeId": "0038",
+        "firstName": "Aaliyah",
+        "middleName": "",
+        "lastName": "Haq",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 1,
+      "userName": "Admin",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 7,
+        "employeeId": "0024",
+        "firstName": "Paul",
+        "middleName": "",
+        "lastName": "Collings",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 1,
+        "name": "Admin",
+        "displayName": "Admin"
+      }
+    },
+    {
+      "id": 12,
+      "userName": "Cassidy.Hope",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 12,
+        "employeeId": "0046",
+        "firstName": "Cassidy",
+        "middleName": "",
+        "lastName": "Hope",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 27,
+      "userName": "Cecil.Bonaparte",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 27,
+        "employeeId": "0204",
+        "firstName": "Cecil",
+        "middleName": "",
+        "lastName": "Bonaparte",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 29,
+      "userName": "Charlie.Carter",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 29,
+        "employeeId": "0212",
+        "firstName": "Charlie",
+        "middleName": "",
+        "lastName": "Carter",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 30,
+      "userName": "Chenzira.Chuki",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 30,
+        "employeeId": "0217",
+        "firstName": "Chenzira",
+        "middleName": "",
+        "lastName": "Chuki",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 17,
+      "userName": "David.Morris",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 17,
+        "employeeId": "0066",
+        "firstName": "David",
+        "middleName": "",
+        "lastName": "Morris",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 6,
+      "userName": "Dominic.Chase",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 6,
+        "employeeId": "0020",
+        "firstName": "Dominic",
+        "middleName": "",
+        "lastName": "Chase",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 1,
+        "name": "Admin",
+        "displayName": "Admin"
+      }
+    },
+    {
+      "id": 32,
+      "userName": "Ehioze.Ebo",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 32,
+        "employeeId": "0227",
+        "firstName": "Ehioze",
+        "middleName": "",
+        "lastName": "Ebo",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 8,
+      "userName": "Fiona.Grace",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 8,
+        "employeeId": "0029",
+        "firstName": "Fiona",
+        "middleName": "",
+        "lastName": "Grace",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 25,
+      "userName": "Garry.White",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 25,
+        "employeeId": "0099",
+        "firstName": "Garry",
+        "middleName": "",
+        "lastName": "White",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 34,
+      "userName": "Goutam.Ganesh",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 34,
+        "employeeId": "0235",
+        "firstName": "Goutam",
+        "middleName": "",
+        "lastName": "Ganesh",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 24,
+      "userName": "Jacqueline.White",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 24,
+        "employeeId": "0095",
+        "firstName": "Jacqueline",
+        "middleName": "",
+        "lastName": "White",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 36,
+      "userName": "Jadine.Jackie",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 36,
+        "employeeId": "0243",
+        "firstName": "Jadine",
+        "middleName": "",
+        "lastName": "Jackie",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 16,
+      "userName": "Jasmine.Morgan",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 16,
+        "employeeId": "0062",
+        "firstName": "Jasmine",
+        "middleName": "",
+        "lastName": "Morgan",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 21,
+      "userName": "Joe.Root",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 21,
+        "employeeId": "0083",
+        "firstName": "Joe",
+        "middleName": "",
+        "lastName": "Root",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 2,
+      "userName": "John.Smith",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 4,
+        "employeeId": "0011",
+        "firstName": "John",
+        "middleName": "",
+        "lastName": "Smith",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 1,
+        "name": "Admin",
+        "displayName": "Admin"
+      }
+    },
+    {
+      "id": 14,
+      "userName": "Jordan.Mathews",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 14,
+        "employeeId": "0054",
+        "firstName": "Jordan",
+        "middleName": "",
+        "lastName": "Mathews",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 15,
+      "userName": "Kevin.Mathews",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 15,
+        "employeeId": "0058",
+        "firstName": "Kevin",
+        "middleName": "",
+        "lastName": "Mathews",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 35,
+      "userName": "Kiyara.Hu",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 35,
+        "employeeId": "0239",
+        "firstName": "Kiyara",
+        "middleName": "",
+        "lastName": "Hu",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 5,
+      "userName": "Linda.Anderson",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 5,
+        "employeeId": "0016",
+        "firstName": "Linda",
+        "middleName": "Jane",
+        "lastName": "Anderson",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 1,
+        "name": "Admin",
+        "displayName": "Admin"
+      }
+    },
+    {
+      "id": 28,
+      "userName": "Lisa.Andrews",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 28,
+        "employeeId": "0208",
+        "firstName": "Lisa",
+        "middleName": "",
+        "lastName": "Andrews",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 23,
+      "userName": "Luke.Wright",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 23,
+        "employeeId": "0091",
+        "firstName": "Luke",
+        "middleName": "",
+        "lastName": "Wright",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 13,
+      "userName": "Maggie.Manning",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 13,
+        "employeeId": "0050",
+        "firstName": "Maggie",
+        "middleName": "",
+        "lastName": "Manning",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 20,
+      "userName": "Melan.Peiris",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 20,
+        "employeeId": "0078",
+        "firstName": "Melan",
+        "middleName": "",
+        "lastName": "Peiris",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 33,
+      "userName": "Nathan.Elliot",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 33,
+        "employeeId": "0231",
+        "firstName": "Nathan",
+        "middleName": "",
+        "lastName": "Elliot",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 19,
+      "userName": "Nina.Patel",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 19,
+        "employeeId": "0074",
+        "firstName": "Nina",
+        "middleName": "",
+        "lastName": "Patel",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 3,
+      "userName": "Odis.Adalwin",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 2,
+        "employeeId": "0002",
+        "firstName": "Odis",
+        "middleName": "",
+        "lastName": "Adalwin",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 1,
+        "name": "Admin",
+        "displayName": "Admin"
+      }
+    },
+    {
+      "id": 4,
+      "userName": "Peter.Anderson",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 3,
+        "employeeId": "0007",
+        "firstName": "Peter",
+        "middleName": "Mac",
+        "lastName": "Anderson",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 1,
+        "name": "Admin",
+        "displayName": "Admin"
+      }
+    },
+    {
+      "id": 11,
+      "userName": "Rebecca.Harmony",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 11,
+        "employeeId": "0042",
+        "firstName": "Rebecca",
+        "middleName": "",
+        "lastName": "Harmony",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 18,
+      "userName": "rushi@12345",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 18,
+        "employeeId": "0070",
+        "firstName": "Anthony",
+        "middleName": "",
+        "lastName": "Nolan",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 9,
+      "userName": "Russel.Hamilton",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 9,
+        "employeeId": "0034",
+        "firstName": "Russel",
+        "middleName": "",
+        "lastName": "Hamilton",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 22,
+      "userName": "Sania.Shaheen",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 22,
+        "employeeId": "0087",
+        "firstName": "Sania",
+        "middleName": "",
+        "lastName": "Shaheen",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 26,
+      "userName": "Sara.Tencrady",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 26,
+        "employeeId": "0103",
+        "firstName": "Sara",
+        "middleName": "",
+        "lastName": "Tencrady",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    }
+  ],
+  "meta": {
+    "total": 34
+  },
+  "rels": []
+}
