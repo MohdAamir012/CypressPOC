@@ -39,46 +39,8 @@
       }
     },
     {
-      "id": 12,
-      "userName": "Cassidy.Hope",
-      "deleted": false,
-      "status": true,
-      "employee": {
-        "empNumber": 12,
-        "employeeId": "0046",
-        "firstName": "Cassidy",
-        "middleName": "",
-        "lastName": "Hope",
-        "terminationId": null
-      },
-      "userRole": {
-        "id": 2,
-        "name": "ESS",
-        "displayName": "ESS"
-      }
-    },
-    {
-      "id": 27,
-      "userName": "Cecil.Bonaparte",
-      "deleted": false,
-      "status": true,
-      "employee": {
-        "empNumber": 27,
-        "employeeId": "0204",
-        "firstName": "Cecil",
-        "middleName": "",
-        "lastName": "Bonaparte",
-        "terminationId": null
-      },
-      "userRole": {
-        "id": 2,
-        "name": "ESS",
-        "displayName": "ESS"
-      }
-    },
-    {
-      "id": 29,
-      "userName": "Charlie.Carter",
+      "id": 41,
+      "userName": "Charlie",
       "deleted": false,
       "status": true,
       "employee": {
@@ -90,9 +52,9 @@
         "terminationId": null
       },
       "userRole": {
-        "id": 2,
-        "name": "ESS",
-        "displayName": "ESS"
+        "id": 1,
+        "name": "Admin",
+        "displayName": "Admin"
       }
     },
     {
@@ -106,6 +68,25 @@
         "firstName": "Chenzira",
         "middleName": "",
         "lastName": "Chuki",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 52,
+      "userName": "Connie",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 74,
+        "employeeId": "0283",
+        "firstName": "Connie",
+        "middleName": "",
+        "lastName": "Light",
         "terminationId": null
       },
       "userRole": {
@@ -343,6 +324,25 @@
       }
     },
     {
+      "id": 48,
+      "userName": "joyce.hodkiewicz",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 12,
+        "employeeId": "0046",
+        "firstName": "Cassidy",
+        "middleName": "",
+        "lastName": "Hope",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 1,
+        "name": "Admin",
+        "displayName": "Admin"
+      }
+    },
+    {
       "id": 15,
       "userName": "Kevin.Mathews",
       "deleted": false,
@@ -353,6 +353,25 @@
         "firstName": "Kevin",
         "middleName": "",
         "lastName": "Mathews",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 39,
+      "userName": "kitty",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 47,
+        "employeeId": "0297",
+        "firstName": "Kite",
+        "middleName": "Nen",
+        "lastName": "Mine",
         "terminationId": null
       },
       "userRole": {
@@ -533,6 +552,25 @@
       }
     },
     {
+      "id": 38,
+      "userName": "Pavan2343",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 28,
+        "employeeId": "0208",
+        "firstName": "Lisa",
+        "middleName": "",
+        "lastName": "Andrews",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 1,
+        "name": "Admin",
+        "displayName": "Admin"
+      }
+    },
+    {
       "id": 4,
       "userName": "Peter.Anderson",
       "deleted": false,
@@ -571,16 +609,16 @@
       }
     },
     {
-      "id": 18,
-      "userName": "rushi@12345",
+      "id": 46,
+      "userName": "Rocky",
       "deleted": false,
       "status": true,
       "employee": {
-        "empNumber": 18,
-        "employeeId": "0070",
-        "firstName": "Anthony",
+        "empNumber": 59,
+        "employeeId": "0268",
+        "firstName": "Rocky",
         "middleName": "",
-        "lastName": "Nolan",
+        "lastName": "Alien",
         "terminationId": null
       },
       "userRole": {
@@ -648,7 +686,7 @@
     }
   ],
   "meta": {
-    "total": 34
+    "total": 36
   },
   "rels": []
 }

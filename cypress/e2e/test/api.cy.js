@@ -5,7 +5,7 @@ import getRequest from "../api/Pages/getRequest";
 import postRequest from "../api/Pages/postRequest";
 Cypress.config("defaultCommandTimeout", 5000);
 
-describe("api testing <smoke>", () => {
+describe("api scenarios",() => {
   let getReq = new getRequest();
   let postReq = new postRequest();
   let delReq = new deleteRequest();

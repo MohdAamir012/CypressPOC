@@ -6,16 +6,9 @@ import AdminSearchUser from "../ui/AdminModule/Pages/AdminSearchUser";
 import DeleteUser from "../ui/AdminModule/Pages/DeleteUser";
 import Login from "../validation/LoginModule/Login";
 import PIMAddEmp from "../ui/EmpModule/Pages/PIMAddEmp";
-import PIMSearchEmp from "../ui/EmpModule/Pages/PIMSearchEmp";
-import DeleteEmp from "../ui/EmpModule/Pages/DeleteEmp";
 Cypress.config('defaultCommandTimeout', 10000);
 
-describe('ui spec <sanity>',  {
-  retries: {
-    runMode: 1,
-    openMode: 1,
-  },
-},() => {
+describe("ui user <sanity>",{ tags: '@sanity'},() => {
   beforeEach('visiting the url', () => {
     const obj =new Login();
     cy.fixture('urlProvider').then((urls) => {
@@ -29,15 +22,6 @@ describe('ui spec <sanity>',  {
       empList.emp.forEach(myFunction);
 function myFunction(item) {
   obj.addEmp(item.fn,item.mn,item.ln,item.id);  
-}
-    })
-  })
-  it('Search employee',()=>{
-    const obj=new PIMSearchEmp();
-    cy.fixture('dataForEmp').then((empList)=>{
-      empList.emp.forEach(myFunction);
-function myFunction(item) {
-  obj.searchEmp(item.fn,item.id);  
 }
     })
   })
@@ -67,16 +51,6 @@ it('Delete user',()=>{
     userList.users.forEach(myFunction);
 function myFunction(item) {
 obj.deleteUser(item.name,item.empName,item.role,item.status);  
-}
-  })
-})
-
-it('Delete employee',()=>{
-  const obj=new DeleteEmp();
-  cy.fixture('dataForEmp').then((empList)=>{
-    empList.emp.forEach(myFunction);
-function myFunction(item) {
-obj.deleteEmp(item.fn,item.id);  
 }
   })
 })

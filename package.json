@@ -4,9 +4,21 @@
   "description": "This repo is for the autooomation of orangehrm.",
   "main": "index.js",
   "scripts": {
-    "teste2eUiChromeMocha": "npx cypress run --env allure=false --spec cypress/e2e/test/*.cy.js --headed --browser=chrome",
-    "generateAllureResult": "npx cypress run --env allure=true --spec cypress/e2e/test/*.cy.js --headed --browser=chrome",
-    "teste2eApiChromeAllure": "npm run generateAllureResult && npx --clean allure generate"
+    "UiChromeMocha": "npx cypress run --env allure=false --spec cypress/e2e/test/*.cy.js --headed --browser=chrome",
+    "Ui@SmokeMocha": "npx cypress run --env grepTags=@smoke allure=false --headed --browser=chrome",
+    "Ui@SanityMocha": "npx cypress run --env grepTags=@sanity allure=false --headed --browser=chrome",
+
+    "UiChromeAllure": "npx cypress run --env allure=true --spec cypress/e2e/test/*.cy.js --headed --browser=chrome",
+    "Ui@SmokeAllure": "npx cypress run --env grepTags=@smoke,allure=true --headed --browser=chrome",
+    "Ui@SanityAllure": "npx cypress run --env grepTags=@sanity,allure=true --headed --browser=chrome",
+
+    "UiChromeAllureReport": "npm run UiChromeAllure && npx --clean allure generate ",
+    "Ui@SmokeAllureReport": "npm run Ui@SmokeAllure && npx --clean allure generate",
+    "Ui@SanityAllureReport": "npm run Ui@SanityAllure && npx --clean allure generate",
+    
+    "apiMochaReport": "npx cypress run --env allure=false grep=\"api scenarios\" --headed --browser=chrome",
+    "apiAllure": "npx cypress run --env allure=true,grep=\"api scenarios\" --headed",
+    "apiAllureReport": "npm run apiAllure && npx --clean allure generate"
   },
   "author": "Mohd Aamir",
   "license": "ISC",
