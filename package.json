@@ -12,13 +12,16 @@
     "Ui@SmokeAllure": "npx cypress run --env grepTags=@smoke,allure=true --headed --browser=chrome",
     "Ui@SanityAllure": "npx cypress run --env grepTags=@sanity,allure=true --headed --browser=chrome",
 
-    "UiChromeAllureReport": "npm run UiChromeAllure && npx --clean allure generate ",
-    "Ui@SmokeAllureReport": "npm run Ui@SmokeAllure && npx --clean allure generate",
-    "Ui@SanityAllureReport": "npm run Ui@SanityAllure && npx --clean allure generate",
+    "allure:clear": "if exist allure-results rmdir /q /s allure-results && if exist allure-report rmdir /q /s allure-report && if exist cypress\\screenshots rmdir /q /s cypress\\screenshots && if exist cypress\\videos rmdir /q /s cypress\\videos && if exist cypress\\reports rmdir /q /s cypress\\reports",
+    "pretest": "npm run allure:clear",
+
+    "UiChromeAllureReport": "npm run pretest && npm run UiChromeAllure && npx --clean allure generate ",
+    "Ui@SmokeAllureReport": "npm run pretest && npm run Ui@SmokeAllure && npx --clean allure generate",
+    "Ui@SanityAllureReport": "npm run pretest && npm run Ui@SanityAllure && npx --clean allure generate",
     
     "apiMochaReport": "npx cypress run --env allure=false grep=\"api scenarios\" --headed --browser=chrome",
     "apiAllure": "npx cypress run --env allure=true,grep=\"api scenarios\" --headed",
-    "apiAllureReport": "npm run apiAllure && npx --clean allure generate"
+    "apiAllureReport": "npm run pretest && npm run apiAllure && npx --clean allure generate"
   },
   "author": "Mohd Aamir",
   "license": "ISC",
