@@ -4,7 +4,7 @@
       "id": 10,
       "userName": "Aaliyah.Haq",
       "deleted": false,
-      "status": false,
+      "status": true,
       "employee": {
         "empNumber": 10,
         "employeeId": "0038",
@@ -27,7 +27,7 @@
       "employee": {
         "empNumber": 7,
         "employeeId": "0024",
-        "firstName": "Paul",
+        "firstName": "PaulHimanshuJain",
         "middleName": "",
         "lastName": "Collings",
         "terminationId": null
@@ -36,101 +36,6 @@
         "id": 1,
         "name": "Admin",
         "displayName": "Admin"
-      }
-    },
-    {
-      "id": 12,
-      "userName": "Cassidy.Hope",
-      "deleted": false,
-      "status": true,
-      "employee": {
-        "empNumber": 12,
-        "employeeId": "0046",
-        "firstName": "Cassidy",
-        "middleName": "",
-        "lastName": "Hope",
-        "terminationId": null
-      },
-      "userRole": {
-        "id": 2,
-        "name": "ESS",
-        "displayName": "ESS"
-      }
-    },
-    {
-      "id": 27,
-      "userName": "Cecil.Bonaparte",
-      "deleted": false,
-      "status": true,
-      "employee": {
-        "empNumber": 27,
-        "employeeId": "0204",
-        "firstName": "Cecil",
-        "middleName": "",
-        "lastName": "Bonaparte",
-        "terminationId": null
-      },
-      "userRole": {
-        "id": 2,
-        "name": "ESS",
-        "displayName": "ESS"
-      }
-    },
-    {
-      "id": 29,
-      "userName": "Charlie.Carter",
-      "deleted": false,
-      "status": true,
-      "employee": {
-        "empNumber": 29,
-        "employeeId": "0212",
-        "firstName": "Charlie",
-        "middleName": "",
-        "lastName": "Carter",
-        "terminationId": null
-      },
-      "userRole": {
-        "id": 2,
-        "name": "ESS",
-        "displayName": "ESS"
-      }
-    },
-    {
-      "id": 30,
-      "userName": "Chenzira.Chuki",
-      "deleted": false,
-      "status": true,
-      "employee": {
-        "empNumber": 30,
-        "employeeId": "0217",
-        "firstName": "Chenzira",
-        "middleName": "",
-        "lastName": "Chuki",
-        "terminationId": null
-      },
-      "userRole": {
-        "id": 2,
-        "name": "ESS",
-        "displayName": "ESS"
-      }
-    },
-    {
-      "id": 17,
-      "userName": "David.Morris",
-      "deleted": false,
-      "status": true,
-      "employee": {
-        "empNumber": 17,
-        "employeeId": "0066",
-        "firstName": "David",
-        "middleName": "",
-        "lastName": "Morris",
-        "terminationId": null
-      },
-      "userRole": {
-        "id": 2,
-        "name": "ESS",
-        "displayName": "ESS"
       }
     },
     {
@@ -163,6 +68,63 @@
         "firstName": "Ehioze",
         "middleName": "",
         "lastName": "Ebo",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 39,
+      "userName": "Employee07022023120500",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 37,
+        "employeeId": "0247",
+        "firstName": "First07022023120500",
+        "middleName": "Middle07022023120500",
+        "lastName": "Last07022023120500",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 53,
+      "userName": "Employee07022023124149",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 45,
+        "employeeId": "0253",
+        "firstName": "First07022023124149",
+        "middleName": "Middle07022023124149",
+        "lastName": "Last07022023124149",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 51,
+      "userName": "EssUser",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 2,
+        "employeeId": "0002",
+        "firstName": "Odis",
+        "middleName": "",
+        "lastName": "Adalwin",
         "terminationId": null
       },
       "userRole": {
@@ -220,6 +182,25 @@
         "firstName": "Goutam",
         "middleName": "",
         "lastName": "Ganesh",
+        "terminationId": null
+      },
+      "userRole": {
+        "id": 2,
+        "name": "ESS",
+        "displayName": "ESS"
+      }
+    },
+    {
+      "id": 48,
+      "userName": "Ham44",
+      "deleted": false,
+      "status": true,
+      "employee": {
+        "empNumber": 9,
+        "employeeId": "0034",
+        "firstName": "Russel",
+        "middleName": "",
+        "lastName": "Hamilton",
         "terminationId": null
       },
       "userRole": {
@@ -533,7 +514,7 @@
       }
     },
     {
-      "id": 42,
+      "id": 38,
       "userName": "Pavan2343aPavan1234",
       "deleted": false,
       "status": true,
@@ -648,7 +629,7 @@
     }
   ],
   "meta": {
-    "total": 34
+    "total": 33
   },
   "rels": []
 }

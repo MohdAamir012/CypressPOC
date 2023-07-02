@@ -4,24 +4,27 @@
   "description": "This repo is for the autooomation of orangehrm.",
   "main": "index.js",
   "scripts": {
-    "UiChromeMocha": "npx cypress run --env allure=false --spec cypress/e2e/test/*.cy.js --headed --browser=chrome",
-    "Ui@SmokeMocha": "npx cypress run --env grepTags=@smoke allure=false --headed --browser=chrome",
-    "Ui@SanityMocha": "npx cypress run --env grepTags=@sanity allure=false --headed --browser=chrome",
+    "combine-reports": "mochawesome-merge cypress/reports/html/.jsons/*.json > cypress/reports/report.json",
+    "report-generate": "marge cypress/reports/report.json -f report -o cypress/reports/ ",
 
+    "UiChromeMocha": "npm run pretest && npx cypress run --env allure=false --spec cypress/e2e/test/*.cy.js --headed --browser=chrome && npm run combine-reports && npm run report-generate",
+    "Ui@SmokeMocha": "npm run pretest && npx cypress run --env grepTags=@smoke allure=false --headed --browser=chrome && npm run combine-reports && npm run report-generate",
+    "Ui@SanityMocha": "npm run pretest && npx cypress run --env grepTags=@sanity allure=false --headed --browser=chrome && npm run combine-reports && npm run report-generate",
     "UiChromeAllure": "npx cypress run --env allure=true --spec cypress/e2e/test/*.cy.js --headed --browser=chrome",
     "Ui@SmokeAllure": "npx cypress run --env grepTags=@smoke,allure=true --headed --browser=chrome",
     "Ui@SanityAllure": "npx cypress run --env grepTags=@sanity,allure=true --headed --browser=chrome",
-
-    "allure:clear": "if exist allure-results rmdir /q /s allure-results && if exist allure-report rmdir /q /s allure-report && if exist cypress\\screenshots rmdir /q /s cypress\\screenshots && if exist cypress\\videos rmdir /q /s cypress\\videos && if exist cypress\\reports rmdir /q /s cypress\\reports",
-    "pretest": "npm run allure:clear",
-
+    
+    "allure:clear": "if exist allure-results rmdir /q /s allure-results && if exist allure-report rmdir /q /s allure-report && if exist cypress\\screenshots rmdir /q /s cypress\\screenshots && if exist cypress\\videos rmdir /q /s cypress\\videos ",
+    "mocha:clear": "if exist cypress\\reports rmdir /q /s cypress\\reports\\.",
+    "pretest": "npm run allure:clear && npm run mocha:clear",
+    
     "UiChromeAllureReport": "npm run pretest && npm run UiChromeAllure && npx --clean allure generate ",
     "Ui@SmokeAllureReport": "npm run pretest && npm run Ui@SmokeAllure && npx --clean allure generate",
     "Ui@SanityAllureReport": "npm run pretest && npm run Ui@SanityAllure && npx --clean allure generate",
     
-    "apiMochaReport": "npx cypress run --env allure=false grep=\"api scenarios\" --headed --browser=chrome",
+    "apiMochaReport": "npm run pretest && npx cypress run --env allure=false,grep=\"api scenarios\" --headed --browser=chrome && npm run combine-reports && npm run report-generate",
     "apiAllure": "npx cypress run --env allure=true,grep=\"api scenarios\" --headed",
-    "apiAllureReport": "npm run pretest && npm run apiAllure && npx --clean allure generate"
+    "apiAllureReport": "npm run pretest && npm run apiAllure && npx --clean allure generate && npm run generate-report"
   },
   "author": "Mohd Aamir",
   "license": "ISC",
@@ -29,6 +32,8 @@
     "allure-commandline": "^2.23.0",
     "cypress": "^12.13.0",
     "cypress-file-upload": "^5.0.8",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0",
     "run": "^1.4.0",
     "xpath": "^0.0.32"
   },
